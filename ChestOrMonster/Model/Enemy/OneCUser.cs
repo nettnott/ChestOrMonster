@@ -23,7 +23,7 @@ public class OneCUser : BaseEntity
         Def = 7;
         AttackType = DamageType.Usual;
         Effect = StatusEffect.None;
-        CritRate = 0.3;
+        CritRate = 0.67;
     }
 
     public override DamageInfo Attack()
